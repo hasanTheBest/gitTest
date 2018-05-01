@@ -27,18 +27,23 @@
 		</header>
 
 
-		<form action="" method="POST" role="form">
-			<legend>Form title</legend>
+		<div role="tabpanel">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#home" aria-controls="home" role="tab" data-toggle="tab">home</a>
+				</li>
+				<li role="presentation">
+					<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">tab</a>
+				</li>
+			</ul>
 		
-			<div class="form-group">
-				<label for="">label</label>
-				<input type="text" class="form-control" id="" placeholder="Input field">
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="home">...</div>
+				<div role="tabpanel" class="tab-pane" id="tab">...</div>
 			</div>
-		
-			
-		
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+		</div>
 		<!-- Latest compiled and minified JS -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</body>
